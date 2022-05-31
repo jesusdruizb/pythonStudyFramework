@@ -39,5 +39,5 @@ def test_validate_pokemon_data():
     pokemon_base_endpoint = jsonpath.jsonpath(env_vars, 'pokeApiUrl')
 
     for pokemon in request_body:
-        pokemon_resource = pkm_endpoints.pokemon_name_resourse(pokemon)
+        pokemon_resource = pkm_endpoints.pokemon_name_resource(pokemon)
         print(pokemon_resource)
