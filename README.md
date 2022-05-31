@@ -1,1 +1,2 @@
-# pythonStudyFramework
+# pythonRestApiTestProject
+pytest
